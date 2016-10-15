@@ -21,7 +21,7 @@ public class SimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().print("Test dde déploiement d'app JAVA sur Bluemix");
+        response.getWriter().print("Test de déploiement d'app JAVA sur Bluemix");
     }
 
 }
